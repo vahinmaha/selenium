@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" > -->
+<suite name="Channel Portal Automation Suite">
+    <test name="AllTests">
+        <classes>
+
+            <!--<class name="inventory.InventoryTests">
+                src/test/java/inventory/InventoryTests.java
+                <methods>
+                    <include name="" />
+                </methods>
+            </class>-->
+
+            <class name="contractors.ContractorsTests">
+                src/test/java/contractors/ContractorsTests.java
+                <methods>
+                    <include name="verifyEditContractor" />
+                    <!--<include name="" />
+                    <include name="" />-->
+                </methods>
+            </class>
+<!--
+            <class name="search.SearchTests">
+                src/test/java/search/SearchTests.java
+                <methods>
+                    <include name="searchBoard" />
+                    <include name="searchContractor" />
+                </methods>
+            </class>
+-->
+
+        </classes>
+    </test> <!-- Configuration Annotation Test -->
+</suite>
