@@ -23,7 +23,7 @@ public class BaseTest {
 
     @BeforeClass
     public void setup() {
-        System.setProperty("webdriver.chrome.driver", "resources/chromedriver");
+        System.setProperty("webdriver.chrome.driver", "resources/chromedriver.exe");
         driver = new ChromeDriver(getChromeOptions());
         driver.get("https://goodman-qa.ihvac.io/");
         loginPage = new LoginPage(driver);
